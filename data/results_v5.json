@@ -1,0 +1,49 @@
+{
+  "trials": 300,
+  "mode": "pure",
+  "ambi": 0,
+  "adveps": 0,
+  "alphabet": 13,
+  "sweep": [
+    {
+      "gw": 0,
+      "oracle_static": 0.8666666666666667,
+      "bf_static": 0.8666666666666667,
+      "bf_static_glyph": 1,
+      "bf_robust": 0.8733333333333333,
+      "bf_robust_glyph": 1
+    },
+    {
+      "gw": 8,
+      "oracle_static": 0.8033333333333333,
+      "bf_static": 0.7966666666666666,
+      "bf_static_glyph": 0.9866666666666667,
+      "bf_robust": 0.78,
+      "bf_robust_glyph": 0.98
+    },
+    {
+      "gw": 16,
+      "oracle_static": 0.21333333333333335,
+      "bf_static": 0.18666666666666668,
+      "bf_static_glyph": 0.68,
+      "bf_robust": 0.19,
+      "bf_robust_glyph": 0.6833333333333333
+    },
+    {
+      "gw": 24,
+      "oracle_static": 0.02666666666666667,
+      "bf_static": 0.016666666666666666,
+      "bf_static_glyph": 0.29333333333333333,
+      "bf_robust": 0.016666666666666666,
+      "bf_robust_glyph": 0.29333333333333333
+    },
+    {
+      "gw": 32,
+      "oracle_static": 0.006666666666666667,
+      "bf_static": 0,
+      "bf_static_glyph": 0.17,
+      "bf_robust": 0.0033333333333333335,
+      "bf_robust_glyph": 0.16666666666666666
+    }
+  ]
+}

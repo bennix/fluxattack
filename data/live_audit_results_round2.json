@@ -1,0 +1,161 @@
+{
+  "target": "http://127.0.0.1:5056",
+  "timestamp": "2026-08-04T20:08:12+0900",
+  "scope": "authorized local defensive audit of FLUX v5 Flask CAPTCHA",
+  "recon": {
+    "health_status": 200,
+    "health": {
+      "ok": true
+    },
+    "home_title": "FLUX",
+    "security_headers": {
+      "X-Frame-Options": "DENY",
+      "X-Content-Type-Options": "nosniff",
+      "Content-Security-Policy": "default-src 'self'; script-src 'self'; worker-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self'; font-src 'self'; object-src 'none'; base-uri 'self'; frame-anc",
+      "Referrer-Policy": "no-referrer",
+      "Server": "gunicorn"
+    },
+    "challenge_status": 200,
+    "challenge_keys": [
+      "board",
+      "challenge_id",
+      "expires_in",
+      "hint_images",
+      "invisible_tasks",
+      "tiles"
+    ],
+    "expires_in": 180,
+    "tile_count": 9,
+    "hint_count": 2,
+    "pow_difficulty": 16,
+    "session_cookie_set": true,
+    "public_answer_fields_absent": true
+  },
+  "pow_benchmark": {
+    "samples": 5,
+    "difficulty_bits": 16,
+    "tasks_per_challenge": 9,
+    "elapsed_mean_s": 0.4892,
+    "elapsed_max_s": 0.6376,
+    "nonce_mean": 48327.89,
+    "rows": [
+      {
+        "elapsed_s": 0.6376,
+        "nonce_sum": 634961,
+        "nonce_mean": 70551.22,
+        "nonce_max": 283569,
+        "difficulty": 16,
+        "tasks": 9
+      },
+      {
+        "elapsed_s": 0.3382,
+        "nonce_sum": 237994,
+        "nonce_mean": 26443.78,
+        "nonce_max": 50601,
+        "difficulty": 16,
+        "tasks": 9
+      },
+      {
+        "elapsed_s": 0.6178,
+        "nonce_sum": 430005,
+        "nonce_mean": 47778.33,
+        "nonce_max": 94868,
+        "difficulty": 16,
+        "tasks": 9
+      },
+      {
+        "elapsed_s": 0.4966,
+        "nonce_sum": 558508,
+        "nonce_mean": 62056.44,
+        "nonce_max": 235804,
+        "difficulty": 16,
+        "tasks": 9
+      },
+      {
+        "elapsed_s": 0.3557,
+        "nonce_sum": 313287,
+        "nonce_mean": 34809.67,
+        "nonce_max": 74279,
+        "difficulty": 16,
+        "tasks": 9
+      }
+    ]
+  },
+  "negative": {
+    "no_proof_wrong_map": {
+      "status": 200,
+      "body": {
+        "pass": false,
+        "reason": "verification_failed"
+      },
+      "blocked": true
+    },
+    "pow_only_wrong_map": {
+      "status": 200,
+      "body": {
+        "pass": false,
+        "reason": "verification_failed"
+      },
+      "blocked": true,
+      "pow": {
+        "elapsed_s": 0.4839,
+        "nonce_sum": 604551,
+        "nonce_mean": 67172.33,
+        "nonce_max": 260295,
+        "difficulty": 16,
+        "tasks": 9
+      }
+    },
+    "cross_session": {
+      "status": 200,
+      "body": {
+        "pass": false,
+        "reason": "verification_failed"
+      },
+      "blocked": true
+    },
+    "replay_after_fail": {
+      "first_status": 200,
+      "first_body": {
+        "pass": false,
+        "reason": "verification_failed"
+      },
+      "second_status": 429,
+      "second_body": {
+        "pass": false,
+        "reason": "too_many_attempts"
+      },
+      "one_shot_or_lock_effective": true
+    },
+    "forged_client_score": {
+      "status": 200,
+      "body": {
+        "pass": false,
+        "reason": "verification_failed"
+      },
+      "blocked": true,
+      "no_oracle_leak": true
+    }
+  },
+  "visual_attack_campaign": {
+    "trials": 20,
+    "passes": 0,
+    "pass_rate": 0.0,
+    "reasons": {
+      "verification_failed": 20
+    },
+    "pow_elapsed_mean_s": 0.4412,
+    "pow_elapsed_max_s": 0.7879
+  },
+  "summary": {
+    "answer_not_in_public_payload": true,
+    "security_headers_ok": true,
+    "pow_solvable_client_side": true,
+    "pow_mean_s": 0.4892,
+    "client_score_forgery_blocked": true,
+    "cross_session_blocked": true,
+    "one_shot_lock_ok": true,
+    "visual_plus_pow_pass_rate": 0.0,
+    "broken": false
+  }
+}

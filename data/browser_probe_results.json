@@ -1,0 +1,80 @@
+{
+  "target": "http://127.0.0.1:5056",
+  "timestamp": "2026-08-04T10:50:27.564Z",
+  "executablePath": "/Users/nellertcai/Library/Caches/ms-playwright/chromium-1228/chrome-mac-arm64/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing",
+  "headless": {
+    "before": {
+      "url": "http://127.0.0.1:5056/",
+      "webdriver": true,
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.0.0 Safari/537.36",
+      "languages": [
+        "zh-CN"
+      ],
+      "hardwareConcurrency": 14,
+      "pluginsLength": 5,
+      "chromeRuntime": "object",
+      "status": "拖动碎片 · 拼出一个清晰的字符",
+      "riskTxt": "等待交互…",
+      "pageTitle": "FLUX v5 Flask // 服务端验证版",
+      "bodyText": "// TOPOLOGY VERIFICATION V5 · FLASK\n全局相干形变 · 服务端答案 · 后端风控判定\n\nASSEMBLE THE TARGET SHAPE · SERVER-HELD ANSWER · ONE-SHOT CHALLENGE\n\nASCII 邻位提示\n人机风险\n等待交互…\n后端边界\n· 答案排列、字形和形变相位仅在 Redis 服务端状态中\n· 前端接收 tile 图片、初始槽位、challenge id 和邻位提示图\n· 后端依据原始轨迹重算风",
+      "exposures": {
+        "P": "undefined",
+        "token": "undefined",
+        "Server": "undefined",
+        "gP": "undefined",
+        "glyphCh": "undefined",
+        "viscapDebug": "undefined",
+        "challengeAnswer": "undefined"
+      },
+      "nonblankPixels": 193600,
+      "hasAttackButton": true
+    },
+    "afterAttackStatus": "抗拼图生效：边界匹配无法直接通过服务端验证",
+    "afterAttackVerify": {
+      "url": "http://127.0.0.1:5056/failed",
+      "body": "验证未通过\n\n服务端未确认当前拼合或交互轨迹，当前 challenge 已失效。\n\n重新挑战"
+    },
+    "afterRobot": {
+      "url": "http://127.0.0.1:5056/",
+      "body": "// TOPOLOGY VERIFICATION V5 · FLASK\n全局相干形变 · 服务端答案 · 后端风控判定\n\nASSEMBLE THE TARGET SHAPE · SERVER-HELD ANSWER · ONE-SHOT CHALLENGE\n\nASCII 邻位提示\n人机风险\n交互轨迹 已采集\n后端边界\n· 答案排列、字形和形变相位仅在 Redis 服务端状态中\n· 前端接收 tile 图片、初始槽位、challenge id 和邻位提示图\n· 后端依据原始轨迹重算风险分，不接受客户端最终分\n· challenge 通过即失效，过期或重放会被拒绝\n碎片已放置 · 请松手后再点击验"
+    },
+    "untrustedClick": {
+      "statusBeforeUntrusted": "拖动碎片 · 拼出一个清晰的字符",
+      "statusAfterUntrusted": "拖动碎片 · 拼出一个清晰的字符",
+      "urlAfterUntrusted": "http://127.0.0.1:5056/"
+    }
+  },
+  "stealthish": {
+    "url": "http://127.0.0.1:5056/",
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36",
+    "languages": [
+      "zh-CN"
+    ],
+    "hardwareConcurrency": 14,
+    "pluginsLength": 5,
+    "chromeRuntime": "object",
+    "status": "正在领取挑战…",
+    "riskTxt": "等待交互…",
+    "pageTitle": "FLUX v5 Flask // 服务端验证版",
+    "bodyText": "// TOPOLOGY VERIFICATION V5 · FLASK\n全局相干形变 · 服务端答案 · 后端风控判定\n\nASSEMBLE THE TARGET SHAPE · SERVER-HELD ANSWER · ONE-SHOT CHALLENGE\n\nASCII 邻位提示\n人机风险\n等待交互…\n后端边界\n· 答案排列、字形和形变相位仅在 Redis 服务端状态中\n· 前端接收 tile 图片、初始槽位、challenge id 和邻位提示图\n· 后端依据原始轨迹重算风",
+    "exposures": {
+      "P": "undefined",
+      "token": "undefined",
+      "Server": "undefined",
+      "gP": "undefined",
+      "glyphCh": "undefined",
+      "viscapDebug": "undefined",
+      "challengeAnswer": "undefined"
+    },
+    "nonblankPixels": 193600,
+    "hasAttackButton": true
+  },
+  "summary": {
+    "secrets_not_exposed": true,
+    "canvas_painted": true,
+    "headless_webdriver": true,
+    "inpage_attack_landed_failed": true,
+    "robotic_drag_landed_failed": false,
+    "untrusted_click_no_navigation": true
+  }
+}

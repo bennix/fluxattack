@@ -1,0 +1,38 @@
+{
+  "target": "http://127.0.0.1:5056",
+  "timestamp": "2026-08-04T11:08:42.781Z",
+  "rerun": true,
+  "before": {
+    "url": "http://127.0.0.1:5056/",
+    "webdriver": true,
+    "status": "拖动碎片 · 拼出一个清晰的字符",
+    "exposures": {
+      "P": "undefined",
+      "token": "undefined",
+      "Server": "undefined",
+      "gP": "undefined",
+      "glyphCh": "undefined",
+      "viscapDebug": "undefined",
+      "challengeAnswer": "undefined"
+    },
+    "nonblankPixels": 193600,
+    "hasAttackButton": true
+  },
+  "afterAttackStatus": "抗拼图生效：边界匹配无法直接通过服务端验证",
+  "afterAttackVerify": {
+    "url": "http://127.0.0.1:5056/failed",
+    "body": "验证未通过\n\n服务端未确认当前拼合或交互轨迹，当前 challenge 已失效。\n\n重新挑战"
+  },
+  "untrusted": {
+    "statusBeforeUntrusted": "拖动碎片 · 拼出一个清晰的字符",
+    "statusAfterUntrusted": "拖动碎片 · 拼出一个清晰的字符",
+    "urlAfterUntrusted": "http://127.0.0.1:5056/"
+  },
+  "summary": {
+    "secrets_not_exposed": true,
+    "canvas_painted": true,
+    "headless_webdriver": true,
+    "inpage_attack_landed_failed": true,
+    "untrusted_click_no_navigation": true
+  }
+}
